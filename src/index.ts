@@ -1,1 +1,1 @@
-console.log("salut")
+export * from "./is-web-serial-supported";
