@@ -2,6 +2,18 @@
 
 Utility to conncet and use serial devices using the Web Serial API
 
+## TODO
+
+- [x] Feature detection
+- [ ] Open a serial port
+- [ ] Read from a serial port
+- [ ] Write to a serial port
+- [ ] Close a serial port
+- [ ] Listen to connection and disconnection
+- [ ] Handle signals
+- [ ] Transforming streams
+- [ ] Revoke access to a serial port
+
 
 ## Feaature detection
 
@@ -13,5 +25,4 @@ if (isWebSerialSupported) {
 } else {
     // Fallback logic
 }
-
 ```
