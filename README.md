@@ -1,6 +1,6 @@
 # web-serial-utils
 
-Utility to conncet and use serial devices using the Web Serial API
+Utility to connect and use serial devices using the Web Serial API
 
 ## TODO
 
@@ -15,7 +15,7 @@ Utility to conncet and use serial devices using the Web Serial API
 - [ ] Revoke access to a serial port
 
 
-## Feaature detection
+## Feature detection
 
 ```typescript
 import { isWebSerialSupported } from "web-serial-utils"
@@ -26,3 +26,9 @@ if (isWebSerialSupported) {
     // Fallback logic
 }
 ```
+
+## Resources
+
+- [Read from and write to a serial port](https://developer.chrome.com/articles/serial)
+- [W3C Community Group - Web Serial API](https://wicg.github.io/serial)
+- [MDN Web Docs - Web Serial API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API)
