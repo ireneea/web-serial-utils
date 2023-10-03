@@ -1,2 +1,2 @@
 export * from "./is-web-serial-supported";
-export * from "./@types";
+export * from "./connect-to-device";

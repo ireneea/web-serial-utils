@@ -5,7 +5,7 @@ Utility to connect and use serial devices using the Web Serial API
 ## TODO
 
 - [x] Feature detection
-- [ ] Open a serial port
+- [x] Connect a device
 - [ ] Read from a serial port
 - [ ] Write to a serial port
 - [ ] Close a serial port
@@ -25,6 +25,23 @@ if (isWebSerialSupported) {
 } else {
     // Fallback logic
 }
+```
+
+## Connect a device
+
+```typescript
+import { connectToDevice } from "web-serial-utils";
+
+const arduinoDevice = await connectToDevice({
+  // Arduino Uno USB example
+  targetDevice: {
+    usbProductId: 0x1234,
+    usbVendorId: 0x5678,
+  },
+  connectionOptions: {
+    baudRate: 9600,
+  },
+});
 ```
 
 ## Resources

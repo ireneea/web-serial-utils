@@ -89,6 +89,11 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.3.tgz#9a726e116beb26c24f1ccd6850201e1246122e04"
   integrity sha512-OxepLK9EuNEIPxWNME+C6WwbRAOOI2o2BaQEGzz5Lu2e4Z5eDnEo+/aVEDMIXywoJitJ7xWd641wrGLZdtwRyw==
 
+"@types/w3c-web-serial@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@types/w3c-web-serial/-/w3c-web-serial-1.0.4.tgz#6b27763a253a28f3a945e5ac0cd697edb8c2366f"
+  integrity sha512-EbdEnJdDyLIHOkVqpGn0mIGGqZE6JFwKXHv2GbU/3UfjWvNLZ/HDUlisavLB6DrPhq5tqGyNDdFHb3FKJYXA9Q==
+
 "@typescript-eslint/eslint-plugin@^6.7.4":
   version "6.7.4"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.7.4.tgz#057338df21b6062c2f2fc5999fbea8af9973ac6d"

@@ -1,6 +1,6 @@
 {
   "name": "web-serial-utils",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Utilities to connect and use serial devices using the Web Serial Api",
   "main": "index.js",
   "repository": "https://github.com/ireneea/web-serial-utils",
@@ -13,6 +13,7 @@
     "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix"
   },
   "devDependencies": {
+    "@types/w3c-web-serial": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
     "eslint": "^8.50.0",
