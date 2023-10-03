@@ -27,7 +27,7 @@ if (isWebSerialSupported) {
 }
 ```
 
-## Connect a device
+## Connect to a device
 
 ```typescript
 import { connectToDevice } from "web-serial-utils";
